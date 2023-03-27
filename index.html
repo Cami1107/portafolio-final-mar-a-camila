@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maria Camila Pacheco Duarte - Portafolio</title>
+    <!-- conectar con boostrap -->
+    <!-- se pone primero boostrap, luego css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+      <!-- seccion presentacion -->
+      <!-- inicio barra navegacion -->
+      <nav class="navbar navbar-expand-lg bg-portafolio">
+          <div class="container">
+              <!-- Para poner logo -->
+              <a class="navbar-brand" href="#"></a>
+              <!-- boton del responsive -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  <!-- esta linea es para cambiar el boton de responsive -->
+                  <!-- <img src="img/calendar-date.png" alt="alt"> -->
+              </button>
+              <!-- barra de navegacion -->
+              <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                  <ul class="navbar-nav d-flex justify-content-between w-100">
+                      <li class="nav-item">
+                          <a id="animacion-sobreMi" class="nav-link" aria-current="page" onClick="scrollToElement()"
+                              href="#sobre-mi">Sobre mí</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#estudios">Estudios</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#experiencia">Experiencia</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#skills">Habilidades</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#portafolio">Portafolio</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <!-- fin barra de navegacion -->
+
+
+
+      <div id="hero">
+          <div class="container">
+              <!-- se crea la fila para poder crear las columnas, y se haga el responsive de manera automatica -->
+              <div class="row">
+                  <div class="col-md-6">
+                      <img src="img/foto.png" id="fotoMia" alt="foto"
+                          class="img-fluid">
+                  </div>
+
+                  <div class="col-md-6">
+                      <ul>
+                          <li>
+                              <h3>Hola, soy</h3>
+                          </li>
+                          <li>
+                              <h2>MARÍA <b>CAMILA</b><br> PACHECO DUARTE</h2>
+                          </li>
+                          <li>
+                              <h1>programadora web</h1>
+                          </li>
+                          <li>
+                              <button type="button" class="btn btn-outline-light">CONTACTAME</button>
+                          </li>
+                      </ul>
+                      <div class="redes">
+                          <a href="https://github.com/Cami1107"><img src="img/github.png" alt="github" class="img-fluid"></a>
+                          <a href="https://co.linkedin.com/in/maria-camila-pacheco-duarte-7b0a67218"><img src="img/linkedin.png" alt="linkedin" class="img-fluid"></a>
+                          <a href="#"><img src="img/instagram1.png" alt="instagram1" class="img-fluid"></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- inicio hero -->
+    </header>
+    <div class="linea"></div>
+
+    <main>   
+      <!-- inicio seccion sobre mi -->
+      <section id="sobre-mi" class="sobre-mi">
+          <div class="container">
+            <div class="row d-flex">        
+              <div class="col-12 col-md-6 offset-md-3 mt-4">
+                <div class="row mb-3 justify-content-center">
+                  <h3 class="sobre-mi-title text-center">Sobre mí</h3>
+                </div>
+              </div>
+              <!-- file de calendario -->
+              <div class="row margin-sobremi"> 
+                <div class="col-lg-4 mt-4 div-sobreMi">
+                  <div class="row sobreMi-mod1">
+                    <div class="col-lg-9 justify-content-end"><p class="fecha">11/07/2001</p></div>
+                    <div class="col-lg-3 img-calender div-logo justify-content-center align-items-center"><img id="logo-sobreMi" src="img/calendar-date.png" alt="calender"></div>
+                    
+                  </div>
+                </div>
+                <div class="col-lg-1 separador d-none d-lg-block"></div>
+                <div class="col-lg-7 mt-4">
+                  <p class="parrafos">Como programadora en PHP y Java, tengo habilidades en el desarrollo de aplicaciones web y sitios dinámicos, utilizando frameworks y bases de datos.</p>
+                </div>
+              </div>
+
+              <!-- file de correo -->
+              <div class="row margin-sobremi"> 
+                <div class="col-lg-4 mt-4 div-sobreMi">
+                  <div class="row sobreMi-mod1">
+                    <div class="col-lg-9 justify-content-end"><p class="fecha">mcpachecod@gmail.com</p></div>
+                    <div class="col-lg-3 img-calender div-logo justify-content-center align-items-center"><img id="logo-sobreMi" src="img/mail.png" alt="calender"></div>
+                    
+                  </div>
+                </div>
+                <div class="col-lg-1 separador d-none d-lg-block"></div>
+                <div class="col-lg-7 mt-4">
+                  <p class="parrafos">estoy familiarizada con las últimas tendencias en tecnología y desarrollo de software, lo que me permite estar siempre actualizada en cuanto a nuevas herramientas y prácticas de programación. </p>
+                </div>
+              </div>
+
+              <!-- file de ubicacion -->
+              <div class="row margin-sobremi "> 
+                <div class="col-lg-4 mt-4 div-sobreMi">
+                  <div class="row sobreMi-mod1">
+                    <div class="col-lg-9 justify-content-end"><img id="animacion" src="img/grafica-quien-soy.png" class="d-none d-lg-block"/><p>Bogotá, Colombia</p></div>
+                    <div class="col-lg-3 img-calender div-logo justify-content-center align-items-center"><img id="logo-sobreMi" src="img/ubicacion.png" alt="calender"></div>
+                  </div>
+                </div>
+                <div class="col-lg-1 separador d-none d-lg-block"></div>
+                <div class="col-lg-7 mt-4">
+                  <p class="parrafos">Soy capaz de resolver problemas de manera eficiente y creativa, y siempre busco soluciones innovadoras para las necesidades de mis clientes.  Conozco las mejores prácticas y estoy siempre en busca de nuevas tecnologías y herramientas para mejorar mis habilidades y conocimientos. Y soy muy buena trabajando en equipo, por lo que se me facilita el trabajo en grupos</p>
+                </div>
+              </div>
+              <!-- Boton -->
+              <div class="row  margin-sobremibutton">
+                <div class="col-lg-4 div-sobreMi"></div>
+                <div class="col-lg-1 separador d-none d-lg-block"></div>
+                <div class="col-lg-7">
+                  <button class="btn btn-block btn-lg button-sobremi"></button>
+                </div>           
+              </div>
+            </div>
+          </div>     
+      </section>
+      <!-- fin seccion sobre mi -->
+      <div class="linea-sobreMi"></div>
+        <!-- inicio seccion skills -->
+
+      <section id="skills" class="skill ">
+        <div class="container">
+          
+        </div>
+        <div class="row">
+          <div class="col-lg-10 mt-5">
+            <div class="row mb-3 d-flex justify-content-between">
+              <div class="col-lg-6 d-flex justify-content-start">
+                <h3 class="text-center">habilidades Blandas</h3>
+              </div>
+              <div class="col-lg-6 d-flex justify-content-start">
+                <h3 class="text-center">Idiomas</h3>
+              </div>
+            </div>
+            <div class="row mb-3 d-flex justify-content-between">
+
+              <div class="col-lg-1 separador1"></div>
+
+              <div class="col-lg-11">
+                <ul>
+                  <li class="skills-li">Trabajo en Equipo</li>
+                  <li class="skills-li">Metodologia SCRUM</li>
+                  <li class="skills-li">Liderazgo</li>
+                  <li class="skills-li">Buena Comunicacion</li>
+                </ul>
+              </div>
+
+              <div class="col-lg-1 separador2"></div>
+
+              <div class="col-lg-11">
+                <ul>
+                  <li>
+                    <span>Español:</span><p>Nativo</p>
+                  </li>
+                  <li >
+                    <span>Ingles:</span>
+                    <p>C1</p>
+                  </li>
+                  <li>
+                    <span>Francés:</span><p>B2</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row row-skills">
+              <h1>skills</h1>
+            </div>
+
+            <div class="container bolas-container">
+              <div class="titulo">
+                <h3>DB</h3>
+              </div>
+              <div class="bolas-container">
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+              </div>
+              <div class="porcentaje">
+                <h3>90%</h3>
+              </div>
+            </div>
+
+            <div class="container bolas-container">
+              <div class="titulo">
+                <h3>PHP</h3>
+              </div>
+              <div class="bolas-container">
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+              </div>
+              <div class="porcentaje">
+                <h3>90%</h3>
+              </div>
+            </div>
+
+            <div class="container bolas-container">
+              <div class="titulo">
+                <h3>JAVA</h3>
+              </div>
+              <div class="bolas-container">
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas "></div>
+                <div class="bolas"></div>
+                <div class="bolas cambiar-color"></div>
+              </div>
+              <div class="porcentaje">
+                <h3>90%</h3>
+              </div>
+            </div>
+
+            <div class="container bolas-container">
+              <div class="titulo">
+                <h3>HTML</h3>
+              </div>
+              <div class="bolas-container">
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas cambiar-color"></div>
+                <div class="bolas cambiar-color"></div>
+              </div>
+              <div class="porcentaje">
+                <h3>80%</h3>
+              </div>
+            </div>
+
+            <div class="container bolas-container">
+              <div class="titulo">
+                <h3>CSS</h3>
+              </div>
+              <div class="bolas-container">
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas"></div>
+                <div class="bolas cambiar-color"></div>
+                <div class="bolas cambiar-color"></div>
+                <div class="bolas cambiar-color"></div>
+              </div>
+              <div class="porcentaje">
+                <h3>70%</h3>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-lg-2 barra-gris">
+          </div>
+        </div>
+      </section>
+        <!-- fin seccion skills -->
+
+        <!-- inicio seccion estudios -->
+        <section class="estudios" id="estudios">
+          <div class="row">
+            <!-- imagen dominos -->
+            <div class="col-lg-4">
+              <img src="img/dominos.png" alt="dominos" class="dominos"> 
+            </div>
+            <!-- lista de estudios -->
+          <div class="col-lg-8"> 
+            <div id="estudios-texto">
+              <div class="nombre-estudios"><p>ESTUDIOS</p></div>
+              <div class="nombre-certificados"><h2>Certificados</h2></div>              
+
+            </div>
+            <div class="lista">
+              <ul>
+                <li> 
+                  <!-- colegio -->
+                  <div class="row">
+                    <div class="col-lg-2 cuadroLista">
+                      <img src="img/Rectangle 34.png" alt="rectangulo" class="cuadroListaImg">
+                    </div>
+                    <!-- colegio -->
+                    <div class="col-lg-10 textoLista">
+                      <div class="titulo">
+                        <p>Bachiller Academico</p>
+                      </div>
+                      <div class="NombreInstitucion">
+                        <p>Cardenal Sancha</p>
+                      <div class="graduacion">
+                          <p>2018</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- uni -->
+                  <div class="row">
+                    <div class="col-lg-2 cuadroLista">
+                      <img src="img/Rectangle 34.png" alt="rectangulo" class="cuadroListaImg">
+                    </div>
+                    <div class="col-lg-10 textoLista">
+                      <div class="titulo">
+                        <p>Psicología</p>
+                      </div>
+                      <div class="NombreInstitucion">
+                        <p>Universidad Nacional de Colombia</p>
+                      <div class="graduacion">
+                          <p>2025</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- ejemplo -->
+                  <div class="row">
+                    <div class="col-lg-2 cuadroLista">
+                      <img src="img/Rectangle 34.png" alt="rectangulo" class="cuadroListaImg">
+                    </div>
+                    <div class="col-lg-10 textoLista">
+                      <div class="titulo">
+                        <p>Análisis y desarrollo de sistemas de la información</p>
+                      </div>
+                      <div class="NombreInstitucion">
+                        <p>SENA</p>
+                      <div class="graduacion">
+                          <p>2023</p>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </section>
+        <!-- fin seccion estudios -->
+
+        <!-- inicio seccion experiencia -->
+        <section class="experiencia" id="experiencia" >
+          <div class="imgTrianguloArriba">
+          </div>
+          <div id="experienciaTitle">
+            <h1>Experiencia</h1>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div id="card-carousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">Montechello</h5>
+                              <p class="card-text">marzo 2023-septiembre 2023</p>
+                              <p class="card-text">Trabajé en el grupo de Implementacion de proyectos.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">En curso</h5>
+                              <p class="card-text">En curso</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">En curso</h5>
+                              <p class="card-text">En curso</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">En curso</h5>
+                              <p class="card-text">En curso</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">En curso</h5>
+                              <p class="card-text">En curso</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4">
+                          <div class="card">
+                            <div class="card-body">
+                              <h5 class="card-title">En curso</h5>
+                              <p class="card-text">En curso</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#card-carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#card-carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div> 
+        <div class="imgTrianguloAbajo">
+          
+        </div>     
+        </section>
+        
+        <!-- fin seccion experiencia -->
+        
+        <!-- inicio seccion portafolio -->
+          <div class="container container-portafolio" id="portafolio">
+            <div class="row">
+              <div class="col-lg-12">
+                <h1 class="portafolio-title">Portafolio</h1>
+              </div>
+            </div>
+            <div class="row row-portafolio">
+              <div class="col-md-4 col-portafolio div1-portafolio">
+                <div class="texto-portafolio">
+                  <h1 class="titulo-portafolio">fruverxpress</h1>
+                  <span class="texto-portafolio-span">Implementacion en php</span>
+                  <div class="container-link-portafolio">
+                    <a class="link-portafolio" href="#">link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-portafolio img-portafolio">
+                <div class="texto-portafolio">
+                  <img class="imagen-cuadricula d-none d-lg-block" src="img/cuadricula.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-4 col-portafolio div3-portafolio">
+                <div class="texto-portafolio">
+                  <h1 class="titulo-portafolio">fruverXpress</h1>
+                  <span class="texto-portafolio-span">Implementacion en php</span>
+                  <div class="container-link-portafolio">
+                    <a class="link-portafolio" href="#">link</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-portafolio div2-portafolio">
+                <div class="texto-portafolio">
+                  <h1 class="titulo-portafolio">FruverXpress</h1>
+                  <span class="texto-portafolio-span">Implementacion en php</span>
+                  <div class="container-link-portafolio">
+                    <a class="link-portafolio" href="#">link</a>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- fin seccion portafolio -->
+    </main>
+    <footer class="footer-portafolio">
+      <div class="footer-container">
+        <div class="barra-pink"></div>
+      </div>
+      <div class="footer-bottom">
+        <p>Derechos de autor © 2023 María Camila Pacheco Duarte. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/animacion.js"></script>
+    
+</body>
+</html>
+
+<!-- container.fluid, para que nos quede el 100% -->
+<!-- container, para que quede centrado -->
+<!-- row, para filas -->
